@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\TNID.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3C553903-C34E-4423-8327-2D2652119CAF}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TNID.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\TNIDEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{7FCD5701-C101-4878-9D0E-47FBC30F9EEB}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\TNID">
+			<UniqueIdentifier>{884B1013-5A32-4D71-B660-14A3462A08D8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\TNID\TNID.Build.cs">
+			<Filter>Source\TNID</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\TNID\TNID.cpp">
+			<Filter>Source\TNID</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TNID\TNID.h">
+			<Filter>Source\TNID</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TNID\TNIDCharacter.cpp">
+			<Filter>Source\TNID</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TNID\TNIDCharacter.h">
+			<Filter>Source\TNID</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\TNID\TNIDGameMode.cpp">
+			<Filter>Source\TNID</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TNID\TNIDGameMode.h">
+			<Filter>Source\TNID</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
